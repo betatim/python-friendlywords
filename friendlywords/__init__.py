@@ -52,11 +52,11 @@ class WordLists:
             if self.directory is not None:
                 fname = os.path.join(self.directory, f"{name}.txt")
                 with open(fname) as f:
-                    words = set(f.read().split())
+                    words = f.read().split()
 
             else:
                 with importlib.resources.open_text("friendlywords", f"{name}.txt") as f:
-                    words = set(f.read().split())
+                    words = f.read().split()
 
             self.cache[name] = words
 

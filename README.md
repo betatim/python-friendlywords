@@ -10,11 +10,11 @@ This package returns curated lists of friendly words, as used in project names a
 import friendlywords
 
 friendlywords.collections
-# {'accrual', 'aggregation', 'album', 'analects', ...}
+# ['accrual', 'aggregation', 'album', 'analects', ...]
 friendlywords.objects
-# {'gargoyleosaurus', 'hydrangea', 'columnist', ...}
+# ['gargoyleosaurus', 'hydrangea', 'columnist', ...]
 friendlywords.predicates
-# {"warp", "windy", "paper", "shrouded", ...}
+# ["warp", "windy", "paper", "shrouded", ...]
 friendlywords.teams
-# {'aerie', 'alliance', 'assembly', 'bale', ...}
+# ['aerie', 'alliance', 'assembly', 'bale', ...]
 ```
